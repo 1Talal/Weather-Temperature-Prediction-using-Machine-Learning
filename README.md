@@ -8,7 +8,7 @@ Machine Learning project for analyzing historical weather data and predicting te
 
 This project focuses on analyzing historical weather data collected from multiple cities and building machine learning models capable of predicting temperature using weather-related attributes.
 
-The project follows the complete data mining workflow, including data preprocessing, visualization, feature correlation analysis, model training, and performance evaluation.
+The project follows the complete Big Data Mining workflow, including data preprocessing, visualization, feature correlation analysis, model training, and performance evaluation.
 
 Two regression models were implemented and compared:
 
@@ -54,15 +54,9 @@ Dataset includes:
 
 # 📸 Project Results
 
-## Daily Temperature Trend
+## Temperature Analysis
 
-![Temperature Trend](images/temperature_trend.png)
-
----
-
-## Pressure vs Temperature
-
-![Pressure vs Temperature](images/pressure_vs_temperature.png)
+![Temperature Analysis](images/temperature_analysis.png)
 
 ---
 
@@ -72,13 +66,13 @@ Dataset includes:
 
 ---
 
-## Actual vs Predicted Temperature (Random Forest)
+## Model Performance
 
-![Random Forest Prediction](images/random_forest_prediction.png)
+![Model Performance](images/model_performance.png)
 
 ---
 
-# 📈 Model Performance
+# 📈 Model Performance Summary
 
 | Model             |  MAE | RMSE | R² Score |
 | ----------------- | ---: | ---: | -------: |
@@ -142,15 +136,11 @@ Weather-Temperature-Prediction/
 │
 ├── weather_temperature_prediction.ipynb
 ├── README.md
-├── requirements.txt
 │
-├── images/
-│   ├── temperature_trend.png
-│   ├── pressure_vs_temperature.png
-│   ├── correlation_matrix.png
-│   └── random_forest_prediction.png
-│
-└── data/
+└── images/
+    ├── temperature_analysis.png
+    ├── correlation_matrix.png
+    └── model_performance.png
 ```
 
 ---
@@ -166,7 +156,7 @@ Weather-Temperature-Prediction/
 
 # 🎓 Course
 
-Big Data Mining
+**Big Data Mining**
 
 College of Computing
 
@@ -176,4 +166,4 @@ Umm Al-Qura University
 
 # 📄 License
 
-This project was developed for educational purposes as part of the Data Mining course at Umm Al-Qura University.
+This project was developed for educational purposes as part of the **Big Data Mining** course at Umm Al-Qura University.
